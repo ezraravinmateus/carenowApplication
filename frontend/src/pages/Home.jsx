@@ -31,7 +31,7 @@ export const Home = () => {
                 Welcome to CareNow Web App for Doctors
             </Heading>
             <Flex gap={"2vw"}>
-                <Link
+                {/* <Link
                     padding={"12px"}
                     paddingX={"24px"}
                     href="/application"
@@ -43,7 +43,7 @@ export const Home = () => {
                     }}
                 >
                     Enter Application
-                </Link>
+                </Link> */}
                 {/* <Link
                     padding={"12px"}
                     paddingX={"24px"}
@@ -68,7 +68,7 @@ export const Home = () => {
                         backgroundColor: "rgba(255, 53, 117, 0.7)",
                     }}
                 >
-                    MultiSelect Application
+                    Enter Application
                 </Link>
             </Flex>
         </Flex>
