@@ -12,5 +12,6 @@ app.use("/treatment", treatmentRouter);
 
 app.listen(PORT, () => {
     // db.sequelize.sync({ alter: true });
+    // db.sequelize.sync({ alter: true, force: true });
     console.log(`Example app listening at http://localhost:${PORT}`);
 });
