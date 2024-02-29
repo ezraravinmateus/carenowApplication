@@ -70,6 +70,19 @@ export const Home = () => {
                 >
                     Enter Application
                 </Link>
+                <Link
+                    padding={"12px"}
+                    paddingX={"24px"}
+                    href="/show-data"
+                    backgroundColor={"rgba(255, 53, 117, 1)"}
+                    color={"#fafafa"}
+                    borderRadius={"full"}
+                    _hover={{
+                        backgroundColor: "rgba(255, 53, 117, 0.7)",
+                    }}
+                >
+                    Show Data
+                </Link>
             </Flex>
         </Flex>
     );

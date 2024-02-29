@@ -7,6 +7,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 import { TestMultiselect } from "./pages/TestMultiselect";
 import { TreatmentAppMultiSelect } from "./pages/TreatmentAppMultiSelect";
+import { ShowData } from "./pages/ShowData";
 
 export const App = () => {
     return (
@@ -23,6 +24,7 @@ export const App = () => {
                         path="/multiselect-application"
                         element={<TreatmentAppMultiSelect />}
                     />
+                    <Route path="/show-data" element={<ShowData />} />
                 </Routes>
             </BrowserRouter>
         </ChakraProvider>

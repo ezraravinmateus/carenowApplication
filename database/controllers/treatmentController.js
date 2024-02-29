@@ -23,4 +23,13 @@ module.exports = {
             res.status(400).send({ message: error.message });
         }
     },
+    getTreatmentData: async (req, res) => {
+        try {
+            const result = await Treatment.findAll();
+            res.status(200).send(result);
+        } catch (error) {
+            console.log(error);
+            res.status(400).send({ message: error.message });
+        }
+    },
 };

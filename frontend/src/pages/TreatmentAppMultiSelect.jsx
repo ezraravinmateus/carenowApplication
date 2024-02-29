@@ -11,6 +11,7 @@ import {
     Textarea,
     FormControl,
     FormLabel,
+    Link,
 } from "@chakra-ui/react";
 import Logo from "../assets/Logo.png";
 import { Formik, Form, ErrorMessage, Field } from "formik";
@@ -237,6 +238,23 @@ export const TreatmentAppMultiSelect = () => {
                                     }}
                                 >
                                     Submit
+                                </Button>
+                                <Button
+                                    width={"full"}
+                                    as={Link}
+                                    padding={"12px"}
+                                    paddingX={"24px"}
+                                    href="/"
+                                    backgroundColor={"rgba(255, 53, 117, 1)"}
+                                    color={"#fafafa"}
+                                    borderRadius={"full"}
+                                    _hover={{
+                                        backgroundColor:
+                                            "rgba(255, 53, 117, 0.7)",
+                                        textDecoration: "none",
+                                    }}
+                                >
+                                    Back
                                 </Button>
                             </VStack>
                         </Form>
